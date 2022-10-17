@@ -283,3 +283,142 @@ footer>section{
 .copyright{
     margin: 20% 0 8% 0;
 }
+@media screen and (max-width:991px) {
+    p{
+        font-weight: 400;
+        font-size: 10px;
+    }
+    .top__second{
+        display: flex;
+        flex-direction: column;
+    }
+    .top__second>div{
+        width: 50%;
+        min-width: 534px;
+    }
+    .top__second>div>h1{
+        margin-top: 0px;
+        font-weight: 700;
+        font-size: 37px;
+    }
+    .top__third>div{
+        background-color: #1E4681;
+        margin-left: 10%;
+        width: 35%;
+        min-height: 93px;
+        min-width: 225px;
+        margin-top: 90px;
+        margin-bottom: 80px;
+        padding: 5px 0px 5px 15px;
+        text-align: left;
+        color: white;
+        font-weight: 400;
+        font-size: 11px;
+        border-radius: 5px;
+    }
+    .top__third>div>p:nth-child(2){
+        font-weight: 400;
+        font-size: 10px;
+    }
+    h2{
+        margin-left: 7%;
+        font-weight: 700;
+        font-size: 26px;
+    }
+    .content>article{
+        width: 55%;
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .extra-info{
+        font-weight: 700;
+        font-size: 12px;
+    }
+    .extra-explanation{
+        font-weight: 400;
+        font-size: 10px;
+    }
+    .lessons-format{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10%;
+    }
+    .lessons-format>div{
+        margin-right: 0px;
+        width: 60%;
+        font-weight: 400;
+        font-size: 10px;
+    }
+    .lessons-format>div .h-lessons-format{
+        color: #1E4681;
+        font-weight: 700;
+        font-size: 12px;
+    }
+    .goals{
+        width: 55%;
+        font-weight: 400;
+        font-size: 12px;
+        margin-bottom: 20vh;
+    }
+    .stick-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+    }
+    .curriculum-sticks{
+        /* width: 30%;
+        height: 52vh;*/
+        min-width: 180px; 
+        min-height: 153px;
+        max-width: 50%;
+        width: fit-content;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        margin-bottom: 5%;
+        
+    }
+    .curriculum-sticks>h3{
+        margin-top: 0px;
+        margin-left: 10px;
+        font-weight: 700;
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+    .curriculum-sticks>p{
+        font-weight: 400;
+        font-size: 12px; 
+        margin-left: 5%; 
+    }
+    .review>h3{
+        font-weight: 700;
+        font-size: 26px;
+    }
+    .review-sign{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-weight: 700;
+        font-size: 14px;
+    }
+    .h-price{
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .price-rub{
+        margin: 0px 0 60px  0;
+        font-weight: 400;
+        font-size: 37px;
+    }
+    .requirements>div>p:first-of-type{
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10%;
+    
+    }
+}
