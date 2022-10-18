@@ -306,46 +306,36 @@ footer>section{
         padding-right: 0;
     }
     .top__second>div{
-        width: 80%;
+        width: 100%;
         min-width: 250px;
     }
     .top__second>div>h1{
         margin-top: 0px;
-        font-weight: 700;
         font-size: 37px;
-        width: 50%;
+        width: 100%;
     }
     .top__third>div{
-        background-color: #1E4681;
         margin-left: 0;
         width: 40%;
         min-height: 93px;
         min-width: 225px;
         max-width: 289px;
-        margin-top: 90px;
+        margin-top: 10%;
         margin-bottom: 80px;
-        padding: 5px 0px 5px 15px;
-        text-align: left;
-        color: white;
-        font-weight: 400;
         font-size: 11px;
-        border-radius: 5px;
     }
     .top-p{
-        width: 50%;
+        width: 80%;
     }
     .top__third>div>p:nth-child(2){
-        font-weight: 400;
         font-size: 10px;
     }
     .top__second>img{
-        min-width: 18%;
+        min-width: 142px;
         max-width: 20%;
         margin-left: 50%;
     }
     h2{
-        margin-left: 7%;
-        font-weight: 700;
         font-size: 26px;
     }
     .content>article{
@@ -375,11 +365,9 @@ footer>section{
         display: none;
     }
     .extra-info{
-        font-weight: 700;
         font-size: 12px;
     }
     .extra-explanation{
-        font-weight: 400;
         font-size: 10px;
     }
     .lessons-format{
@@ -390,17 +378,13 @@ footer>section{
     .lessons-format>div{
         margin-right: 0px;
         width: 60%;
-        font-weight: 400;
         font-size: 10px;
     }
     .lessons-format>div .h-lessons-format{
-        color: #1E4681;
-        font-weight: 700;
         font-size: 12px;
     }
     .goals{
         width: 55%;
-        font-weight: 400;
         font-size: 12px;
         margin-bottom: 20vh;
     }
@@ -408,30 +392,25 @@ footer>section{
         display: flex;
         flex-direction: column;
         margin-bottom: 0;
-        margin-left: 20%;
+        align-items: center;
     }
     .curriculum-sticks{
         height: 50%;
         max-width: 50%;
-        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
-        border-radius: 30px;
         margin-bottom: 5%;
         
     }
     .curriculum-sticks>h3{
         margin-top: 0px;
         margin-left: 10px;
-        font-weight: 700;
         font-size: 14px;
         margin-bottom: 0px;
     }
     .curriculum-sticks>p{
-        font-weight: 400;
         font-size: 12px; 
         margin-left: 5%; 
     }
     .review>h3{
-        font-weight: 700;
         font-size: 26px;
     }
     .review-sign{
@@ -439,16 +418,11 @@ footer>section{
         display: flex;
         flex-direction: row;
         align-items: center;
-        font-weight: 700;
-        font-size: 14px;
     }
     .h-price{
-        font-weight: 400;
         font-size: 12px;
     }
     .price-rub{
-        margin: 0px 0 60px  0;
-        font-weight: 400;
         font-size: 37px;
     }
     .requirements>div>p:first-of-type{
@@ -459,14 +433,9 @@ footer>section{
         display: flex;
         flex-direction: column;
         margin-bottom: 10%;
-    
     }
     .review>div{
-        background-color: white;
         width: 90%;
-        box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
-        border-radius: 30px;
-        padding: 20px;
     }
     .review-sign>div>p{
         font-weight: 700;
@@ -496,5 +465,123 @@ footer>section{
     }
     .phone-mail>div>img{
         width: 3%;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1279px) {
+    main, header, footer{
+        max-width: 100%;
+    }
+    p{
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .top__first>p{
+        width: 75px;
+        margin-right: 2%;
+    }
+    .top__second>div>h1{
+        margin-top: 0px;
+        font-size: 46px;     
+    }
+    .top__third>div{
+        margin-left: 25%;
+        width: 50%;
+        min-height: 93px;
+        min-width: 225px;
+        max-width: 289px;
+        margin-top: 7%;
+        margin-bottom: 7%;
+    }
+    .top__third>div>p:first-child{
+        margin-bottom: 0;
+        font-size: 14px;
+    }
+    .top__third>div>p:nth-child(2){
+        font-size: 12px;
+    }
+    .top__second>img{
+        min-width: 22%;
+        max-width: 25%;
+    }
+    h2{
+        font-size: 32px;
+    }
+    .content{
+        margin-bottom: 5%;
+        justify-content:flex-start;
+    }
+    .content>article{
+        width: 50%;
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .camera{
+        width: 22%;
+        margin-top: -5%;
+        min-width: 146px;
+        margin-left: 20%;
+    }
+    .extra>div{
+        width: 30%;
+        margin-right: 7%;
+        min-width: 90px;
+    }
+    .studio{
+        max-width: 135px;
+    }
+    .extra-info{
+        font-size: 15px;
+    }
+    .extra-explanation{
+        font-size: 11px;
+    }
+    .lessons-format>div{
+        margin-right: 0px;
+        width: 30%;
+        font-size: 11px;
+    }
+    .lessons-format>div .h-lessons-format{
+        font-size: 15px;
+    }
+    .goals{
+        width: 55%;
+        font-size: 14px;
+        margin-bottom: 20vh;
+    }
+    .curriculum-sticks>h3{
+        font-size: 17px;
+    }
+    .curriculum-sticks>p{
+        font-size: 14px; 
+    }
+    .review>h3{
+        font-size: 32px;
+    }
+    .review-sign{
+        font-size: 17px;
+    }
+    .h-price{
+        font-size: 14px;
+    }
+    .price-rub{
+        font-size: 46px;
+    }
+    .requirements>div>p:first-of-type{
+        font-size: 14px;
+    }
+    .review-sign>div>p{
+        font-weight: 700;
+        font-size: 17px;
+    }
+    .review-sign>img{
+        margin-right: 5%;
+        width: 30%;
+    }
+    .f-social{
+        margin-top: 7%;
+        width: 15%;
+    }
+    .phone-mail>div>img{
+        width: 10%;
     }
 }
